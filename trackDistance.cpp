@@ -7,7 +7,8 @@ using namespace cv;
 /**
 
 For using this program it is recommended to create a Resorces directory inside the project and store a "calibration image"
-there. 
+there. The calibration image should show the ball clearly. For the program to work, it must detect the ball in the provided 
+"calibration image", see the calibration image for an example
 
 For the program to work, it needs the following constants to be given values
 int KNOWN_WIDTH   - the width of the ball we want to track
